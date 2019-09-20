@@ -47,6 +47,10 @@ body {
 .glass {
   padding: 24px;
   text-align: center;
+  &__image {
+    height: 150px;
+    width: 150px;
+  }
   &__counter {
     text-align: center;
     padding: 16px;
