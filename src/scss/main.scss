@@ -59,7 +59,24 @@ body {
     margin: 4px;
     cursor: pointer;
     letter-spacing: 0.8px;
+    &--add {
+      background: linear-gradient(180deg, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
+      background-blend-mode: difference;
+      //mix-blend-mode: normal;
+      border: 1px solid $color_background;
+      filter: blur(.15px);
+      box-shadow: 0 0 10px $color_background;
+    }
+    &--remove {
+      background: linear-gradient(180deg, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
+      background-blend-mode: hard-light;
+      border: 1px solid $color_background;
+      margin-top: 12px;
+
+
+    }
   }
+  
 }
 
 .glass__actions {
