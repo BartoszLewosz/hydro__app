@@ -316,7 +316,109 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #F9C802;
-  background: #000; }
+  color: #071013;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  max-width: 375px;
+  max-width: 100%;
+  background: #eaebed;
+  padding: 32px;
+  max-height: 100vh; }
+
+.header__title {
+  font-size: 24px;
+  text-align: center; }
+
+.datetime {
+  padding: 24px;
+  text-align: center; }
+
+.glass {
+  padding: 24px;
+  text-align: center; }
+  .glass__image {
+    height: 150px;
+    width: 150px; }
+  .glass__counter {
+    text-align: center;
+    padding: 16px; }
+  .glass__button {
+    border-radius: 8px;
+    max-width: 140px;
+    font-size: 16px;
+    padding: 8px;
+    margin: 4px;
+    cursor: pointer;
+    letter-spacing: 0.8px; }
+    .glass__button--add {
+      background: -webkit-gradient(linear, left top, left bottom, from(#0077BE), to(rgba(0, 119, 190, 0)));
+      background: -webkit-linear-gradient(top, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
+      background: -o-linear-gradient(top, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
+      background: linear-gradient(180deg, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
+      background-blend-mode: difference;
+      border: 1px solid #eaebed;
+      -webkit-filter: blur(0.15px);
+              filter: blur(0.15px);
+      -webkit-box-shadow: 0 0 10px #eaebed;
+              box-shadow: 0 0 10px #eaebed; }
+    .glass__button--remove {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(109, 161, 193, 0)), color-stop(75.52%, #BE4700));
+      background: -webkit-linear-gradient(top, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
+      background: -o-linear-gradient(top, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
+      background: linear-gradient(180deg, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
+      background-blend-mode: hard-light;
+      border: 1px solid #eaebed;
+      margin-top: 12px; }
+
+.glass__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+  font-variant: small-caps;
+  font-size: 75%; }
 
 /*# sourceMappingURL=main.css.map */
