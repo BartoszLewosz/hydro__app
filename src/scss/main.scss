@@ -1,6 +1,7 @@
 @import "_normalize";
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 
 html {
   box-sizing: border-box;
@@ -19,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 20px;
+  font-family: 'Handlee', sans-serif;
 }
 
 .main {
