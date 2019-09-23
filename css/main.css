@@ -5,6 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Handlee&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -316,7 +318,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #071013;
+  color: #ededf4;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -331,7 +333,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px; }
+  margin: 20px;
+  font-family: 'Handlee', sans-serif; }
 
 .main {
   display: -webkit-box;
@@ -345,7 +348,7 @@ body {
       align-content: space-between;
   max-width: 375px;
   max-width: 100%;
-  background: #eaebed;
+  background: #0075c4;
   padding: 32px;
   max-height: 100vh; }
 
@@ -359,13 +362,21 @@ body {
 
 .glass {
   padding: 24px;
-  text-align: center; }
-  .glass__image {
-    height: 150px;
-    width: 150px; }
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../assets/img/Vector.svg") center center no-repeat;
+  height: 250px;
+  min-width: 160px; }
   .glass__counter {
-    text-align: center;
-    padding: 16px; }
+    font-size: 36px; }
   .glass__button {
     border-radius: 8px;
     max-width: 140px;
@@ -373,25 +384,26 @@ body {
     padding: 8px;
     margin: 4px;
     cursor: pointer;
-    letter-spacing: 0.8px; }
+    letter-spacing: 0.8px;
+    color: #ededf4; }
     .glass__button--add {
       background: -webkit-gradient(linear, left top, left bottom, from(#0077BE), to(rgba(0, 119, 190, 0)));
       background: -webkit-linear-gradient(top, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
       background: -o-linear-gradient(top, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
       background: linear-gradient(180deg, #0077BE 0%, rgba(0, 119, 190, 0) 100%);
       background-blend-mode: difference;
-      border: 1px solid #eaebed;
+      border: 1px solid #ededf4;
       -webkit-filter: blur(0.15px);
               filter: blur(0.15px);
-      -webkit-box-shadow: 0 0 10px #eaebed;
-              box-shadow: 0 0 10px #eaebed; }
+      -webkit-box-shadow: 0 0 10px #0075c4;
+              box-shadow: 0 0 10px #0075c4; }
     .glass__button--remove {
       background: -webkit-gradient(linear, left top, left bottom, from(rgba(109, 161, 193, 0)), color-stop(75.52%, #BE4700));
       background: -webkit-linear-gradient(top, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
       background: -o-linear-gradient(top, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
       background: linear-gradient(180deg, rgba(109, 161, 193, 0) 0%, #BE4700 75.52%);
       background-blend-mode: hard-light;
-      border: 1px solid #eaebed;
+      border: 1px solid #ededf4;
       margin-top: 12px; }
 
 .glass__actions {
@@ -411,6 +423,7 @@ body {
   padding: 16px; }
 
 .footer {
+  background: #0075c4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
