@@ -1,56 +1,39 @@
 # Hydro__app
 
-![Logo](https://github.com/BartoszLewosz/hydro__app/blob/master/src/assets/img/water-drop-svgrepo-com.svg)
+<p align="center">
+  <img width="260" height="100" src="https://github.com/BartoszLewosz/hydro__app/blob/master/src/assets/img/Vector.svg">
+</p>
 
+
+![Logo](https://github.com/BartoszLewosz/hydro__app/blob/master/src/assets/img/Vector.svg)
 
 
 ## Usage
-
 [Try it!](https://bartoszlewosz.github.io/hydro__app/)
-Simply fill the form and log in.
+Basic application that counts glasses of water that you drunk today!
 
 ## Description
 
-This is my first live **Web Application**. I use it on daily basis to keep the record of issues at my current workplace. All of 60 employees can report technical problem, that occured. There are four sections:
-- Garden
-- Maintenance
-- Electric
-- Plumbing
+The idea is very simple. When you drink a glass of water just click on **add glass** button.
 
-Each section stores specific problems. If you are not sure which section your problem belongs, please add to *Maintenance*
+This couple lines of JS code will save your data into local storage. 
 
+It's under development.
 
 ### What's behind?
 
-To create this simple app I used:
+To create this simple app I used **JavaScript** and:
 
-**Backend:**
-- Python, Django
-- function-based views
-- SQLite3 database
-- pythonanywhere.com as a web hosting service
-- GIT 
+**Tools:**
+- `gulp`
+- [gulp-starter-kit](https://github.com/maciejkorsan/wtf-gulp-starter#wtf-gulp-starter)
+- `git` 
 
 **Frontend:**
-- Basic HTML & CSS 
-- bootstrap 4 adjusted with stylesheet 
+- HTML & CSS
+- SCSS
 
 
-
-
-
-
-
-
-# simple-editor
-
-### Description
-
-This is an application, that will track the amount of water (by glass) that you drunk.
-
-### Purpose
-
-Practice some basic JS skills
-` Code.the.thing`
+`3. Simple is better than complex.`
 
 
