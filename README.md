@@ -5,8 +5,6 @@
 </p>
 
 
-![Logo](https://github.com/BartoszLewosz/hydro__app/blob/master/src/assets/img/Vector.svg)
-
 
 ## Usage
 [Try it!](https://bartoszlewosz.github.io/hydro__app/)
